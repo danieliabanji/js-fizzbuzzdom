@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+body{
+    background-color: darkcyan;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    color: #fff;
+    margin: 30px 0;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+}
+
+/* colori di stilizzazione diversi in base al multiplo */
+.box.fizz{
+    background-color: yellowgreen;
+}
+
+.box.buzz {
+    background-color: coral;
+}
+
+.box.fizzbuzz {
+    background-color: palevioletred;
+
+}
